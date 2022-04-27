@@ -19,4 +19,4 @@ Data$No_plants_in_office <- as.numeric(Data$No_plants_in_office)
 #Calculate mean 
 
 Plants_at_limno_stats <- Data %>% summarise(across(No_plants_in_office, list(mean,sd,sum)))
-#mean 2.875, SD: 3.97986, sum: 23
+#mean 2.25, SD: 1.28, sum: 18
